@@ -1,0 +1,108 @@
+(footprint "Thermistor_ NXFT15XV103FEAB025"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.05 -1.8 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "89146c57-e525-4c0a-9cc1-2f403039a094")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Thermistor_ NXFT15XV103FEAB025"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1c352b61-44fd-4df7-8286-ea84147f997f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5c837042-a063-4318-a7ea-13ec2a31e142")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3f3f4b19-9282-4002-add9-8fc3f9d72c5f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -1.45 -0.7)
+		(end 1.45 0.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "4cdece12-5313-4e8d-92cc-e1e1b942a442")
+	)
+	(fp_rect
+		(start -1.55 -0.8)
+		(end 1.55 0.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "1e632551-e939-4670-a460-498cebbcfb96")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4f057d79-c1ec-42b2-be55-38f16ad1d9d4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -0.65 0)
+		(size 1 1)
+		(drill 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1d250788-eee5-4759-ad90-d1bf50718b10")
+	)
+	(pad "2" thru_hole circle
+		(at 0.65 0)
+		(size 1 1)
+		(drill 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "17fbd0d0-db1e-49b4-91dd-90654892bdc6")
+	)
+	(embedded_fonts no)
+)
