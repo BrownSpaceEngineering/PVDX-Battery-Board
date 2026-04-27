@@ -613,6 +613,14 @@
     [
       "c318761a-e6d3-4e59-aaa2-0d170bce7cde",
       "Root"
+    ],
+    [
+      "b34fb11c-4e7e-4d41-87e4-3948049b024c",
+      "Connectors"
+    ],
+    [
+      "0a3f63ce-136a-4115-ab54-eabf7e58dfd1",
+      "Boards"
     ]
   ],
   "text_variables": {}

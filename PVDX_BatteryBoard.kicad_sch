@@ -178,526 +178,42 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Thermistor_NTC_US"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TH"
-				(at -4.445 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Thermistor_NTC_US"
-				(at 3.175 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Temperature dependent resistor, negative temperature coefficient, US symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "thermistor NTC resistor sensor RTD"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_* RV_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Thermistor_NTC_US_0_1"
-				(arc
-					(start -3.175 2.413)
-					(mid -3.0506 2.3165)
-					(end -3.048 2.159)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -3.048 2.794)
-					(mid -2.9736 2.9736)
-					(end -2.794 3.048)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.794 3.048)
-					(mid -2.6144 2.9736)
-					(end -2.54 2.794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.794 2.54)
-					(mid -2.9736 2.6144)
-					(end -3.048 2.794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.794 1.905)
-					(mid -2.9736 1.9794)
-					(end -3.048 2.159)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.54 2.159)
-					(mid -2.6144 1.9794)
-					(end -2.794 1.905)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.159 2.794)
-					(mid -2.434 2.5608)
-					(end -2.794 2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 2.159) (xy -2.54 2.794)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -3.683) (xy -2.54 -1.397) (xy -2.794 -2.159) (xy -2.286 -2.159) (xy -2.54 -1.397) (xy -2.54 -1.651)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.54) (xy -1.778 1.524) (xy 1.778 -1.524) (xy 1.778 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -1.397) (xy -1.778 -3.683) (xy -2.032 -2.921) (xy -1.524 -2.921) (xy -1.778 -3.683)
-						(xy -1.778 -3.429)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.286) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Thermistor_NTC_US_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
-	(symbol
-		(lib_id "Device:Thermistor_NTC_US")
-		(at 95.25 77.47 0)
-		(unit 1)
+	(rectangle
+		(start 139.7 97.79)
+		(end 198.12 119.38)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ac4c7c68-dd16-4c22-bf59-9049ff188064)
+	)
+	(text "input connector (5V in from eps, heater_on signal for heaters)"
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "14da30b0-9c34-42a5-a4e5-1da2e5987c9e")
-		(property "Reference" "TH1"
-			(at 97.79 76.5174 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
+		(at 100.584 131.064 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
 		)
-		(property "Value" "Thermistor_NTC_US"
-			(at 97.79 79.0574 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
+		(uuid "69c3090c-d4ca-47e4-a54d-29d29eba3ddd")
+	)
+	(text "for reference only"
+		(exclude_from_sim no)
+		(at 163.576 113.792 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
 		)
-		(property "Footprint" "Thermistor_NXFT15XV103FEAB025:Thermistor_ NXFT15XV103FEAB025"
-			(at 95.25 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 95.25 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Temperature dependent resistor, negative temperature coefficient, US symbol"
-			(at 95.25 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f4ddd070-3610-44bc-9d37-a29191fa48a3")
-		)
-		(pin "1"
-			(uuid "49b19cb7-2382-476f-8d7c-88adbff815ca")
-		)
-		(instances
-			(project ""
-				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde"
-					(reference "TH1")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "aea26f87-f045-4b7f-9a42-d836a0670982")
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 151.13 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1f408c17-531f-452f-8567-e196bb6d6a48")
-		(property "Reference" "Rt2"
-			(at 153.67 80.0099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5.993k"
-			(at 153.67 82.5499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 152.146 81.534 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 151.13 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 151.13 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a578b0ea-52e4-473e-94d2-89eedba47708")
-		)
-		(pin "1"
-			(uuid "1602c8f1-6e6f-4b10-8fd1-6f967d6f81e3")
-		)
-		(instances
-			(project ""
-				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde"
-					(reference "Rt2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 137.16 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5f47e7e5-a0f1-42eb-aed0-053355613c37")
-		(property "Reference" "Rt1"
-			(at 139.7 80.0099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "16.121k"
-			(at 139.7 82.5499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 138.176 81.534 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 137.16 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 137.16 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1beb7fab-6d43-4c07-b635-6136f3483411")
-		)
-		(pin "2"
-			(uuid "ba989618-e6aa-4db9-9647-8c46be6f2e8d")
-		)
-		(instances
-			(project ""
-				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde"
-					(reference "Rt1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 111.76 104.14 0)
+		(at 144.78 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -705,8 +221,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e3cc7f4-ccc0-4c26-a091-cd96edd67f8f")
-		(property "Reference" "Rh"
-			(at 114.3 102.8699 0)
+		(property "Reference" "thermistor_high_temp"
+			(at 147.32 105.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -715,7 +231,7 @@
 			)
 		)
 		(property "Value" "2.498k"
-			(at 114.3 105.4099 0)
+			(at 147.32 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -724,7 +240,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 112.776 104.394 90)
+			(at 145.796 106.934 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -733,7 +249,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 111.76 104.14 0)
+			(at 144.78 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -742,7 +258,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 111.76 104.14 0)
+			(at 144.78 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -759,7 +275,7 @@
 		(instances
 			(project ""
 				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde"
-					(reference "Rh")
+					(reference "thermistor_high_temp")
 					(unit 1)
 				)
 			)
@@ -767,7 +283,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 88.9 100.33 0)
+		(at 172.72 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -775,8 +291,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4a1a392-de2c-4e8d-bc69-32cefa7db247")
-		(property "Reference" "Rl"
-			(at 91.44 99.0599 0)
+		(property "Reference" "thermistor_low_temp"
+			(at 175.26 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -785,7 +301,7 @@
 			)
 		)
 		(property "Value" "33.476k"
-			(at 91.44 101.5999 0)
+			(at 175.26 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -794,7 +310,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 89.916 100.584 90)
+			(at 173.736 108.204 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -803,7 +319,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 88.9 100.33 0)
+			(at 172.72 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -812,7 +328,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 88.9 100.33 0)
+			(at 172.72 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -829,8 +345,92 @@
 		(instances
 			(project ""
 				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde"
-					(reference "Rl")
+					(reference "thermistor_low_temp")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 116.84 57.15)
+		(size 13.97 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0a3f63ce-136a-4115-ab54-eabf7e58dfd1")
+		(property "Sheetname" "Boards"
+			(at 116.84 56.4384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PVDX_BatteryBoard_Board.kicad_sch"
+			(at 116.84 61.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PVDX_BatteryBoard"
+				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 116.84 46.99)
+		(size 13.97 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b34fb11c-4e7e-4d41-87e4-3948049b024c")
+		(property "Sheetname" "Connectors"
+			(at 116.84 46.2784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PVDX_BatteryBoard_connectors.kicad_sch"
+			(at 116.84 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PVDX_BatteryBoard"
+				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde"
+					(page "2")
 				)
 			)
 		)
