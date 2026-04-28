@@ -394,6 +394,48 @@
 		)
 	)
 	(sheet
+		(at 176.53 45.72)
+		(size 15.24 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6615dc5a-7f0b-406b-9d77-243d4272a96d")
+		(property "Sheetname" "Heater"
+			(at 176.53 45.0084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PVDX_BatteryBoard_Heater.kicad_sch"
+			(at 176.53 50.1146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PVDX_BatteryBoard"
+				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 116.84 46.99)
 		(size 13.97 3.81)
 		(exclude_from_sim no)

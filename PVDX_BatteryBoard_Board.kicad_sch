@@ -1217,7 +1217,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14da30b0-9c34-42a5-a4e5-1da2e5987c9e")
-		(property "Reference" "TH1"
+		(property "Reference" "TH?"
 			(at 92.71 95.5674 0)
 			(effects
 				(font
@@ -1269,6 +1269,12 @@
 			(uuid "49b19cb7-2382-476f-8d7c-88adbff815ca")
 		)
 		(instances
+			(project "PVDX_BatteryBoard"
+				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde/0a3f63ce-136a-4115-ab54-eabf7e58dfd1"
+					(reference "TH?")
+					(unit 1)
+				)
+			)
 			(project "PVDX_BatteryBoard_Board"
 				(path "/e7c095aa-cf75-4f7e-8bb1-3b099b992029"
 					(reference "TH1")
@@ -1287,7 +1293,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f408c17-531f-452f-8567-e196bb6d6a48")
-		(property "Reference" "Rt2"
+		(property "Reference" "Rt?"
 			(at 92.71 81.2799 0)
 			(effects
 				(font
@@ -1339,6 +1345,12 @@
 			(uuid "1602c8f1-6e6f-4b10-8fd1-6f967d6f81e3")
 		)
 		(instances
+			(project "PVDX_BatteryBoard"
+				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde/0a3f63ce-136a-4115-ab54-eabf7e58dfd1"
+					(reference "Rt?")
+					(unit 1)
+				)
+			)
 			(project "PVDX_BatteryBoard_Board"
 				(path "/e7c095aa-cf75-4f7e-8bb1-3b099b992029"
 					(reference "Rt2")
@@ -1357,7 +1369,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23e795cf-dc22-46fb-bb83-8453ea66df16")
-		(property "Reference" "BT2"
+		(property "Reference" "BT?"
 			(at 120.65 127.6984 0)
 			(effects
 				(font
@@ -1436,6 +1448,12 @@
 			(uuid "c2cec424-3fef-4093-bf93-4687ec882e4c")
 		)
 		(instances
+			(project "PVDX_BatteryBoard"
+				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde/0a3f63ce-136a-4115-ab54-eabf7e58dfd1"
+					(reference "BT?")
+					(unit 1)
+				)
+			)
 			(project "PVDX_BatteryBoard_Board"
 				(path "/e7c095aa-cf75-4f7e-8bb1-3b099b992029"
 					(reference "BT2")
@@ -1454,7 +1472,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f47e7e5-a0f1-42eb-aed0-053355613c37")
-		(property "Reference" "Rt1"
+		(property "Reference" "Rt?"
 			(at 92.71 62.2299 0)
 			(effects
 				(font
@@ -1506,6 +1524,12 @@
 			(uuid "ba989618-e6aa-4db9-9647-8c46be6f2e8d")
 		)
 		(instances
+			(project "PVDX_BatteryBoard"
+				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde/0a3f63ce-136a-4115-ab54-eabf7e58dfd1"
+					(reference "Rt?")
+					(unit 1)
+				)
+			)
 			(project "PVDX_BatteryBoard_Board"
 				(path "/e7c095aa-cf75-4f7e-8bb1-3b099b992029"
 					(reference "Rt1")
@@ -1524,7 +1548,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b473ef41-bd73-488b-acae-91f8de9bfd70")
-		(property "Reference" "C1"
+		(property "Reference" "C?"
 			(at 82.55 55.8799 0)
 			(effects
 				(font
@@ -1576,6 +1600,12 @@
 			(uuid "889efde6-d24d-46b2-90df-30cb6e8d62a1")
 		)
 		(instances
+			(project "PVDX_BatteryBoard"
+				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde/0a3f63ce-136a-4115-ab54-eabf7e58dfd1"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "PVDX_BatteryBoard_Board"
 				(path "/e7c095aa-cf75-4f7e-8bb1-3b099b992029"
 					(reference "C1")
@@ -1594,7 +1624,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd446bae-7a8a-4ca9-9638-21017176b5e4")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR?"
 			(at 78.74 69.85 0)
 			(effects
 				(font
@@ -1642,6 +1672,12 @@
 			(uuid "f05d6fe8-a2d5-42fd-a0f8-55f812a52a1f")
 		)
 		(instances
+			(project "PVDX_BatteryBoard"
+				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde/0a3f63ce-136a-4115-ab54-eabf7e58dfd1"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "PVDX_BatteryBoard_Board"
 				(path "/e7c095aa-cf75-4f7e-8bb1-3b099b992029"
 					(reference "#PWR02")
@@ -1660,7 +1696,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc55868c-96b5-45e6-9a1e-b87f732c3699")
-		(property "Reference" "BT1"
+		(property "Reference" "BT?"
 			(at 92.71 128.8414 0)
 			(effects
 				(font
@@ -1739,6 +1775,12 @@
 			(uuid "22d2d47d-f00c-434b-86a5-7a0dcaf33d37")
 		)
 		(instances
+			(project "PVDX_BatteryBoard"
+				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde/0a3f63ce-136a-4115-ab54-eabf7e58dfd1"
+					(reference "BT?")
+					(unit 1)
+				)
+			)
 			(project "PVDX_BatteryBoard_Board"
 				(path "/e7c095aa-cf75-4f7e-8bb1-3b099b992029"
 					(reference "BT1")
@@ -1757,7 +1799,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed903462-742f-4c65-a026-730943777c60")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR?"
 			(at 90.17 106.68 0)
 			(effects
 				(font
@@ -1805,6 +1847,12 @@
 			(uuid "d3cf8c18-cfd0-461a-9052-9e2b4de55c06")
 		)
 		(instances
+			(project "PVDX_BatteryBoard"
+				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde/0a3f63ce-136a-4115-ab54-eabf7e58dfd1"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "PVDX_BatteryBoard_Board"
 				(path "/e7c095aa-cf75-4f7e-8bb1-3b099b992029"
 					(reference "#PWR01")
