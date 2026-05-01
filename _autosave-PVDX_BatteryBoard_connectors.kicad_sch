@@ -564,6 +564,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:GND1"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND1"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND1_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND1_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "A V+ and GND for each solar panel connection (4x for a total of 8 pins). \nThese will connect on the other side to EPS\nA data line and compute board GND for each photodiode on each solar board, \nso 4 pins per solar board (data 1, 2, 3, and GND), for a total of 16 pins, \nwhich will connect to compute board\nPass through for the camera as well, which is 8 pins between the arm-board \nand the compute board\n\n4 batt boards\nso 4 gnd, 4 pwr\n4 ntc, 4 batt- 4 batt+ and 4 battm"
 		(exclude_from_sim no)
@@ -607,6 +708,56 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 74.93) (xy 82.55 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6541c921-018f-45cc-8f8e-0854a90e2844")
+	)
+	(wire
+		(pts
+			(xy 77.47 77.47) (xy 82.55 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "667d0fde-19fc-4d63-8f11-20997f7688ed")
+	)
+	(wire
+		(pts
+			(xy 77.47 72.39) (xy 82.55 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85078446-9a16-4546-8251-4eacc5289a4f")
+	)
+	(wire
+		(pts
+			(xy 77.47 80.01) (xy 82.55 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "927ad24f-f99b-46e4-95b3-8af36c4c0035")
+	)
+	(wire
+		(pts
+			(xy 77.47 82.55) (xy 82.55 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af6dd2b2-f130-41f5-9c7e-0e84d19475a6")
+	)
+	(wire
+		(pts
 			(xy 35.56 88.9) (xy 40.64 88.9)
 		)
 		(stroke
@@ -634,6 +785,82 @@
 			(type default)
 		)
 		(uuid "e36f6fe4-f414-4e7d-97d8-a102f131efab")
+	)
+	(wire
+		(pts
+			(xy 77.47 69.85) (xy 82.55 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f80be9d3-8be4-43c4-a1c8-400ab4e80bae")
+	)
+	(global_label "DATA1"
+		(shape output)
+		(at 82.55 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1adf573d-db60-4c6f-8645-a1f22fe4babb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 91.1595 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SOLAR_V+"
+		(shape passive)
+		(at 82.55 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "29ddde9a-c557-4124-aabc-858921f36025")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.9792 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DATA3"
+		(shape output)
+		(at 82.55 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6b0fe2a1-1361-460d-867a-80fa9380ca39")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 91.1595 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "BATT+"
 		(shape passive)
@@ -692,6 +919,28 @@
 		(uuid "b64c1f9c-1137-4a8b-bcb4-b076833107a9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 47.1933 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DATA2"
+		(shape output)
+		(at 82.55 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dc104b1e-9211-4099-a013-080a63806f5c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 91.1595 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -798,6 +1047,153 @@
 			(project ""
 				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde/b34fb11c-4e7e-4d41-87e4-3948049b024c"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x06_Socket")
+		(at 72.39 77.47 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2636752a-37ba-4600-b203-aa2419510808")
+		(property "Reference" "J2"
+			(at 73.025 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x06_Socket"
+			(at 73.025 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated"
+			(at 72.39 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "99c8adb1-44da-4da6-b9ec-0e35c0f7aeb6")
+		)
+		(pin "3"
+			(uuid "bf16d1ae-3b5c-4b83-a21e-c803657080bd")
+		)
+		(pin "4"
+			(uuid "9c9c808c-79ef-46b7-8a1f-803f748499d1")
+		)
+		(pin "6"
+			(uuid "dec6900a-be6c-44e0-b303-f7c584593ca4")
+		)
+		(pin "2"
+			(uuid "eb9aba39-fc64-448a-a9e6-a13b70fd4a1e")
+		)
+		(pin "1"
+			(uuid "6c3fa27f-20a9-4704-9fb7-acc01c02fdc4")
+		)
+		(instances
+			(project "PVDX_BatteryBoard"
+				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde/b34fb11c-4e7e-4d41-87e4-3948049b024c"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND1")
+		(at 82.55 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32ed97f1-70f5-45b1-98fb-8af5aa2e0b11")
+		(property "Reference" "#PWR07"
+			(at 88.9 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SOLAR_GND"
+			(at 86.36 80.0099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 82.55 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d1346722-07af-44cc-b5d7-9a8f9aac2d13")
+		)
+		(instances
+			(project ""
+				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde/b34fb11c-4e7e-4d41-87e4-3948049b024c"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
