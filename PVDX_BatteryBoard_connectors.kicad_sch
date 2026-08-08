@@ -2681,15 +2681,15 @@
 		)
 		(uuid "80493f86-3f7e-4c1f-bdf0-485e0758e752")
 	)
-	(text "values may change"
+	(text "actual desired values: 15.7k, 5.78k\nvalues are rounded to ones that actually exist"
 		(exclude_from_sim no)
-		(at 219.71 71.12 0)
+		(at 227.584 48.006 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "cc455d9c-69d3-4cfa-84bf-b5cb361b3df8")
+		(uuid "c13c0ef1-bdc1-4e8c-a171-8cb6bf390c8d")
 	)
 	(text "to compute"
 		(exclude_from_sim no)
@@ -5276,7 +5276,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Thermistor_NTC_US"
+		(property "Value" "GA10K3A1IA"
 			(at 254 87.9474 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5531,7 +5531,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.993k"
+		(property "Value" "5.83k"
 			(at 209.55 120.6499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5613,7 +5613,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "16.121k"
+		(property "Value" "15.8k"
 			(at 209.55 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5999,7 +5999,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.993k"
+		(property "Value" "5.83k"
 			(at 254 120.6499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6237,7 +6237,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Thermistor_NTC_US"
+		(property "Value" "GA10K3A1IA"
 			(at 254 128.5874 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6510,7 +6510,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.993k"
+		(property "Value" "5.83k"
 			(at 254 80.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7380,7 +7380,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Thermistor_NTC_US"
+		(property "Value" "GA10K3A1IA"
 			(at 209.55 128.5874 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7657,7 +7657,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Thermistor_NTC_US"
+		(property "Value" "GA10K3A1IA"
 			(at 209.55 87.9474 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8581,7 +8581,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "16.121k"
+		(property "Value" "15.8k"
 			(at 254 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8663,7 +8663,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "16.121k"
+		(property "Value" "15.8k"
 			(at 254 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8849,7 +8849,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "16.121k"
+		(property "Value" "15.8k"
 			(at 209.55 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9100,7 +9100,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.993k"
+		(property "Value" "5.83k"
 			(at 209.55 80.0099 0)
 			(show_name no)
 			(do_not_autoplace no)

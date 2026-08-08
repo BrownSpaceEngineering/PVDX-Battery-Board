@@ -392,7 +392,7 @@
 		)
 	)
 	(sheet
-		(at 176.53 45.72)
+		(at 47.625 58.42)
 		(size 15.24 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -408,7 +408,7 @@
 		)
 		(uuid "6615dc5a-7f0b-406b-9d77-243d4272a96d")
 		(property "Sheetname" "Heater"
-			(at 176.53 45.0084 0)
+			(at 47.625 57.7084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -419,7 +419,7 @@
 			)
 		)
 		(property "Sheetfile" "PVDX_BatteryBoard_Heater.kicad_sch"
-			(at 176.53 50.1146 0)
+			(at 47.625 62.8146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -438,8 +438,8 @@
 		)
 	)
 	(sheet
-		(at 116.84 46.99)
-		(size 13.97 3.81)
+		(at 47.625 47.625)
+		(size 15.24 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -454,7 +454,7 @@
 		)
 		(uuid "b34fb11c-4e7e-4d41-87e4-3948049b024c")
 		(property "Sheetname" "Connectors"
-			(at 116.84 46.2784 0)
+			(at 47.625 46.9134 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -465,7 +465,7 @@
 			)
 		)
 		(property "Sheetfile" "PVDX_BatteryBoard_connectors.kicad_sch"
-			(at 116.84 51.3846 0)
+			(at 47.625 52.0196 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

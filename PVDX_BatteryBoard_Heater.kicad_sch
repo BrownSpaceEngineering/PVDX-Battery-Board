@@ -371,12 +371,10 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Simulation_SPICE:NMOS"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Transistor_FET:DMC2053UVT"
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -384,7 +382,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "Q"
-				(at 5.08 1.27 0)
+				(at 2.54 1.905 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -394,8 +392,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "NMOS"
-				(at 5.08 -1.27 0)
+			(property "Value" "DMC2053UVT"
+				(at 2.54 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -405,8 +403,8 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
+			(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
+				(at 2.54 -1.905 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -414,10 +412,11 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-				(at 0 -12.7 0)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMC2053UVT.pdf"
+				(at 2.54 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -425,9 +424,10 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(property "Description" "4.6A/-3.2A Id, 20V Vds, Complementary pair enhancement mode P-Channel and N-Channel MOSFET, TSOT-23-6"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -438,40 +438,17 @@
 					)
 				)
 			)
-			(property "Sim.Device" "NMOS"
-				(at 0 -17.145 0)
+			(property "ki_locked" ""
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Sim.Type" "VDMOS"
-				(at 0 -19.05 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=D 2=G 3=S"
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET simulation"
+			(property "ki_keywords" "complementary mosfet"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -482,7 +459,19 @@
 					)
 				)
 			)
-			(symbol "NMOS_0_1"
+			(property "ki_fp_filters" "TSOT?23*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "DMC2053UVT_1_1"
+				(unit_name "NMOS")
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -626,7 +615,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+						(xy 2.921 0.381) (xy 3.683 0.381)
 					)
 					(stroke
 						(width 0)
@@ -648,26 +637,6 @@
 						(type none)
 					)
 				)
-			)
-			(symbol "NMOS_1_1"
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -678,7 +647,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -696,7 +665,25 @@
 							)
 						)
 					)
-					(number "3"
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -705,120 +692,8 @@
 					)
 				)
 			)
-			(embedded_fonts no)
-		)
-		(symbol "Simulation_SPICE:PMOS"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "PMOS"
-				(at 5.08 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "P-MOSFET transistor, drain/source/gate"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Device" "PMOS"
-				(at 0 -17.145 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Type" "VDMOS"
-				(at 0 -19.05 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=D 2=G 3=S"
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET simulation"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "PMOS_0_1"
+			(symbol "DMC2053UVT_2_1"
+				(unit_name "PMOS")
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -962,7 +837,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+						(xy 2.921 -0.381) (xy 3.683 -0.381)
 					)
 					(stroke
 						(width 0)
@@ -984,19 +859,17 @@
 						(type none)
 					)
 				)
-			)
-			(symbol "PMOS_1_1"
 				(pin passive line
-					(at 2.54 5.08 270)
+					(at 2.54 -5.08 90)
 					(length 2.54)
-					(name "D"
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1014,7 +887,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1023,16 +896,16 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 -5.08 90)
+					(at 2.54 5.08 270)
 					(length 2.54)
-					(name "S"
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1808,6 +1681,101 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:DMC2053UVT")
+		(at 99.06 139.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "08322b20-08cc-4a0e-b7cd-67928fb22c0d")
+		(property "Reference" "Q2"
+			(at 104.14 138.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DMC2053UVT"
+			(at 104.14 140.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
+			(at 101.6 141.605 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMC2053UVT.pdf"
+			(at 101.6 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "4.6A/-3.2A Id, 20V Vds, Complementary pair enhancement mode P-Channel and N-Channel MOSFET, TSOT-23-6"
+			(at 99.06 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "4eef2f4d-d550-479b-88a6-98855dfc80db")
+		)
+		(pin "2"
+			(uuid "5cc67425-3f60-4daf-92b1-7e9395721fa0")
+		)
+		(pin "6"
+			(uuid "188ba5e4-9410-49fd-a07d-23579219e568")
+		)
+		(pin "1"
+			(uuid "88cf7900-e719-4ca5-ac71-7000acbf6c5e")
+		)
+		(pin "4"
+			(uuid "e3243c2d-8dc0-4c34-b129-200ac172f667")
+		)
+		(pin "5"
+			(uuid "8b14b64f-f88b-4156-bd5f-81cadad89e29")
+		)
+		(instances
+			(project "PVDX_BatteryBoard"
+				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde/6615dc5a-7f0b-406b-9d77-243d4272a96d"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 129.54 151.13 0)
 		(unit 1)
@@ -1968,19 +1936,18 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 99.06 139.7 0)
-		(unit 1)
+		(lib_id "Transistor_FET:DMC2053UVT")
+		(at 127 132.08 0)
+		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "14f406b6-c7e3-4ced-9fe8-8e61415e9fec")
-		(property "Reference" "Q5"
-			(at 105.41 138.4299 0)
+		(uuid "4cbe3b1f-ab20-445e-86c2-2a5b764379cf")
+		(property "Reference" "Q2"
+			(at 132.08 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1990,8 +1957,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
-			(at 105.41 140.9699 0)
+		(property "Value" "DMC2053UVT"
+			(at 132.08 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2001,104 +1968,9 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 104.14 137.16 0)
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
+			(at 129.54 133.985 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 99.06 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 99.06 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 99.06 156.845 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 99.06 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 99.06 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "9ef2b29f-858d-4568-80a9-faddcc1e7424")
-		)
-		(pin "1"
-			(uuid "e3d3c333-857a-45bd-9bd9-db801fab76d3")
-		)
-		(pin "3"
-			(uuid "91109dbe-c0fd-4826-ac51-7cd5a28452df")
-		)
-		(instances
-			(project "PVDX_BatteryBoard"
-				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde/6615dc5a-7f0b-406b-9d77-243d4272a96d"
-					(reference "Q5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 127 76.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "41d3b0a2-3621-43bc-a801-b9bb06c7a0a3")
-		(property "Reference" "Q3"
-			(at 133.35 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2108,8 +1980,9 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PMOS"
-			(at 133.35 77.4699 0)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMC2053UVT.pdf"
+			(at 129.54 135.89 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2119,63 +1992,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 132.08 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 127 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 127 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 127 93.345 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 127 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 127 91.44 0)
+		(property "Description" "4.6A/-3.2A Id, 20V Vds, Complementary pair enhancement mode P-Channel and N-Channel MOSFET, TSOT-23-6"
+			(at 127 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2186,19 +2004,28 @@
 			)
 		)
 		(pin "3"
-			(uuid "78d55082-9666-4d27-b2ad-92d365fccc1f")
-		)
-		(pin "1"
-			(uuid "f5554de2-2983-4bc5-a0bf-31888877f621")
+			(uuid "5b281193-4fd5-44ab-a00f-789c5836ee35")
 		)
 		(pin "2"
-			(uuid "3945a89e-c7bb-41c5-9c20-697c68a81384")
+			(uuid "1134bfb6-c8d0-4671-96fc-a4c61ed9779a")
+		)
+		(pin "6"
+			(uuid "9c473a3e-a674-4395-9924-c1b0dae5572d")
+		)
+		(pin "1"
+			(uuid "36222e74-fcfe-4d77-9f53-ed09224a8ab1")
+		)
+		(pin "4"
+			(uuid "a99f88f2-0e22-4145-bab3-7bc7df98b6af")
+		)
+		(pin "5"
+			(uuid "b89c8341-7fc5-47d7-9edd-4681848de8cd")
 		)
 		(instances
 			(project "PVDX_BatteryBoard"
 				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde/6615dc5a-7f0b-406b-9d77-243d4272a96d"
-					(reference "Q3")
-					(unit 1)
+					(reference "Q2")
+					(unit 2)
 				)
 			)
 		)
@@ -2282,124 +2109,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 127 132.08 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6e4a78ab-74da-46ee-ba46-11999c1bd15d")
-		(property "Reference" "Q6"
-			(at 133.35 130.8099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PMOS"
-			(at 133.35 133.3499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 127 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 127 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 127 149.225 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 127 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 127 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "727c442d-ebd0-40c9-a5ce-1222c2e75339")
-		)
-		(pin "1"
-			(uuid "7b48d6d5-561e-4ad8-888b-fd139a7ebdf8")
-		)
-		(pin "2"
-			(uuid "4fd503a5-6377-46cf-8d0d-9701efc67362")
-		)
-		(instances
-			(project "PVDX_BatteryBoard"
-				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde/6615dc5a-7f0b-406b-9d77-243d4272a96d"
-					(reference "Q6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 90.17 148.59 0)
 		(unit 1)
@@ -2476,124 +2185,6 @@
 			(project "PVDX_BatteryBoard"
 				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde/6615dc5a-7f0b-406b-9d77-243d4272a96d"
 					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 99.06 83.82 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "93a053cc-6336-4435-a510-2d7009782961")
-		(property "Reference" "Q4"
-			(at 105.41 82.5499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NMOS"
-			(at 105.41 85.0899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.14 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 99.06 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 99.06 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 99.06 100.965 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 99.06 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 99.06 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ea882b85-f773-4749-9a85-1af014b883c7")
-		)
-		(pin "1"
-			(uuid "69eaa079-8fc9-49bd-a033-53b4fa33f626")
-		)
-		(pin "3"
-			(uuid "fa160ce1-3334-4b71-af20-dc38ff3c6367")
-		)
-		(instances
-			(project "PVDX_BatteryBoard"
-				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde/6615dc5a-7f0b-406b-9d77-243d4272a96d"
-					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -3088,6 +2679,101 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:DMC2053UVT")
+		(at 127 76.2 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cd342ac4-beaa-4012-86f6-44ad50218679")
+		(property "Reference" "Q1"
+			(at 132.08 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DMC2053UVT"
+			(at 132.08 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
+			(at 129.54 78.105 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMC2053UVT.pdf"
+			(at 129.54 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "4.6A/-3.2A Id, 20V Vds, Complementary pair enhancement mode P-Channel and N-Channel MOSFET, TSOT-23-6"
+			(at 127 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "4eef2f4d-d550-479b-88a6-98855dfc80da")
+		)
+		(pin "2"
+			(uuid "5cc67425-3f60-4daf-92b1-7e9395721f9f")
+		)
+		(pin "6"
+			(uuid "9c473a3e-a674-4395-9924-c1b0dae5572d")
+		)
+		(pin "1"
+			(uuid "36222e74-fcfe-4d77-9f53-ed09224a8ab1")
+		)
+		(pin "4"
+			(uuid "e3243c2d-8dc0-4c34-b129-200ac172f666")
+		)
+		(pin "5"
+			(uuid "b89c8341-7fc5-47d7-9edd-4681848de8cd")
+		)
+		(instances
+			(project "PVDX_BatteryBoard"
+				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde/6615dc5a-7f0b-406b-9d77-243d4272a96d"
+					(reference "Q1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 90.17 96.52 0)
 		(unit 1)
@@ -3242,6 +2928,101 @@
 			(project "PVDX_BatteryBoard"
 				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde/6615dc5a-7f0b-406b-9d77-243d4272a96d"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:DMC2053UVT")
+		(at 99.06 83.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dc0fe21d-d5ca-4ce6-9b37-97ed305ae19e")
+		(property "Reference" "Q1"
+			(at 104.14 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DMC2053UVT"
+			(at 104.14 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
+			(at 101.6 85.725 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMC2053UVT.pdf"
+			(at 101.6 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "4.6A/-3.2A Id, 20V Vds, Complementary pair enhancement mode P-Channel and N-Channel MOSFET, TSOT-23-6"
+			(at 99.06 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "4eef2f4d-d550-479b-88a6-98855dfc80da")
+		)
+		(pin "2"
+			(uuid "5cc67425-3f60-4daf-92b1-7e9395721f9f")
+		)
+		(pin "6"
+			(uuid "9c473a3e-a674-4395-9924-c1b0dae5572d")
+		)
+		(pin "1"
+			(uuid "36222e74-fcfe-4d77-9f53-ed09224a8ab1")
+		)
+		(pin "4"
+			(uuid "e3243c2d-8dc0-4c34-b129-200ac172f666")
+		)
+		(pin "5"
+			(uuid "b89c8341-7fc5-47d7-9edd-4681848de8cd")
+		)
+		(instances
+			(project "PVDX_BatteryBoard"
+				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde/6615dc5a-7f0b-406b-9d77-243d4272a96d"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
