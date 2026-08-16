@@ -1887,7 +1887,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 115.316 72.644 90)
 			(hide yes)
 			(show_name no)
@@ -2142,7 +2142,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 91.186 148.844 90)
 			(hide yes)
 			(show_name no)
@@ -2224,7 +2224,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 141.986 87.884 90)
 			(hide yes)
 			(show_name no)
@@ -2306,7 +2306,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 116.332 143.51 90)
 			(hide yes)
 			(show_name no)
@@ -2388,7 +2388,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 91.186 92.964 90)
 			(hide yes)
 			(show_name no)
@@ -2470,7 +2470,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 115.316 128.524 90)
 			(hide yes)
 			(show_name no)
@@ -2630,7 +2630,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 127.762 87.63 90)
 			(hide yes)
 			(show_name no)
@@ -2753,16 +2753,16 @@
 			(uuid "5cc67425-3f60-4daf-92b1-7e9395721f9f")
 		)
 		(pin "6"
-			(uuid "9c473a3e-a674-4395-9924-c1b0dae5572d")
+			(uuid "9c473a3e-a674-4395-9924-c1b0dae5572e")
 		)
 		(pin "1"
-			(uuid "36222e74-fcfe-4d77-9f53-ed09224a8ab1")
+			(uuid "36222e74-fcfe-4d77-9f53-ed09224a8ab2")
 		)
 		(pin "4"
 			(uuid "e3243c2d-8dc0-4c34-b129-200ac172f666")
 		)
 		(pin "5"
-			(uuid "b89c8341-7fc5-47d7-9edd-4681848de8cd")
+			(uuid "b89c8341-7fc5-47d7-9edd-4681848de8ce")
 		)
 		(instances
 			(project "PVDX_BatteryBoard"
@@ -2885,7 +2885,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 116.332 87.63 90)
 			(hide yes)
 			(show_name no)
@@ -3002,22 +3002,22 @@
 			)
 		)
 		(pin "3"
-			(uuid "4eef2f4d-d550-479b-88a6-98855dfc80da")
+			(uuid "4eef2f4d-d550-479b-88a6-98855dfc80dc")
 		)
 		(pin "2"
-			(uuid "5cc67425-3f60-4daf-92b1-7e9395721f9f")
+			(uuid "5cc67425-3f60-4daf-92b1-7e9395721fa1")
 		)
 		(pin "6"
-			(uuid "9c473a3e-a674-4395-9924-c1b0dae5572d")
+			(uuid "9c473a3e-a674-4395-9924-c1b0dae5572f")
 		)
 		(pin "1"
-			(uuid "36222e74-fcfe-4d77-9f53-ed09224a8ab1")
+			(uuid "36222e74-fcfe-4d77-9f53-ed09224a8ab3")
 		)
 		(pin "4"
-			(uuid "e3243c2d-8dc0-4c34-b129-200ac172f666")
+			(uuid "e3243c2d-8dc0-4c34-b129-200ac172f668")
 		)
 		(pin "5"
-			(uuid "b89c8341-7fc5-47d7-9edd-4681848de8cd")
+			(uuid "b89c8341-7fc5-47d7-9edd-4681848de8cf")
 		)
 		(instances
 			(project "PVDX_BatteryBoard"
@@ -3062,7 +3062,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 127.762 143.51 90)
 			(hide yes)
 			(show_name no)
@@ -3144,7 +3144,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 141.986 143.764 90)
 			(hide yes)
 			(show_name no)
