@@ -5,146 +5,6 @@
 	(uuid "00bed892-3707-46bc-9224-334af61aa235")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Conn_01x01_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x01_Pin"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x01, script generated"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x01_Pin_1_1"
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:Conn_01x02_Pin"
 			(pin_names
 				(offset 1.016)
@@ -3221,6 +3081,12 @@
 		(uuid "20fc0cc6-4168-4502-a758-07bfbf61f932")
 	)
 	(junction
+		(at 100.33 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "27960018-fe79-493e-858a-cd3a05dcfa4f")
+	)
+	(junction
 		(at 242.57 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3245,6 +3111,12 @@
 		(uuid "3ef9e104-0a72-455a-a754-449fcd08cdcf")
 	)
 	(junction
+		(at 100.33 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40e2cbfa-bd8b-4a80-be2c-7b273a773d68")
+	)
+	(junction
 		(at 251.46 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3255,6 +3127,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "498f1f60-93b1-48de-8a60-0b16fc193c55")
+	)
+	(junction
+		(at 41.91 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51e50457-b088-490b-b7a6-bca47772d9ca")
 	)
 	(junction
 		(at 34.29 161.29)
@@ -3279,6 +3157,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5c0ab88c-f6fc-4882-afc8-351d13552d62")
+	)
+	(junction
+		(at 41.91 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5cba281a-a14a-405d-926c-0169f7f919fb")
 	)
 	(junction
 		(at 114.3 123.19)
@@ -3592,6 +3476,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 144.78) (xy 100.33 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d3efd61-8281-40d6-84cd-67f6e44f34c4")
+	)
+	(wire
+		(pts
 			(xy 44.45 182.88) (xy 41.91 182.88)
 		)
 		(stroke
@@ -3709,6 +3603,16 @@
 			(type default)
 		)
 		(uuid "3b8ca6be-389b-4bd1-acd0-c37f32fcd01e")
+	)
+	(wire
+		(pts
+			(xy 41.91 172.72) (xy 41.91 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c6ae25b-1d84-421c-84e3-280e1158a81d")
 	)
 	(wire
 		(pts
@@ -3839,16 +3743,6 @@
 			(type default)
 		)
 		(uuid "58cce64f-9450-433c-a9f9-c6f76b6858da")
-	)
-	(wire
-		(pts
-			(xy 41.91 170.18) (xy 41.91 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58daf51a-170e-4dc6-bc89-d3602308c15c")
 	)
 	(wire
 		(pts
@@ -4012,16 +3906,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 170.18) (xy 100.33 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e90086b-0629-4e0c-9c65-8e77d063dca8")
-	)
-	(wire
-		(pts
 			(xy 78.74 111.76) (xy 76.2 111.76)
 		)
 		(stroke
@@ -4182,16 +4066,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 142.24) (xy 41.91 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0516f16-175b-4e07-b576-3bb5fef3b26c")
-	)
-	(wire
-		(pts
 			(xy 55.88 153.67) (xy 55.88 161.29)
 		)
 		(stroke
@@ -4252,6 +4126,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 172.72) (xy 100.33 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8f2bc49-8129-4cfd-8791-12ab1c438908")
+	)
+	(wire
+		(pts
 			(xy 114.3 120.65) (xy 114.3 118.11)
 		)
 		(stroke
@@ -4269,16 +4153,6 @@
 			(type default)
 		)
 		(uuid "af89c755-47ff-4796-8de6-ae04c7013238")
-	)
-	(wire
-		(pts
-			(xy 100.33 142.24) (xy 100.33 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "afdd6a05-d725-47f2-aff9-dcf6335be65d")
 	)
 	(wire
 		(pts
@@ -4482,6 +4356,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 170.18) (xy 100.33 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c925a524-7ecb-4306-acb5-37ad66df7880")
+	)
+	(wire
+		(pts
 			(xy 251.46 60.96) (xy 251.46 59.69)
 		)
 		(stroke
@@ -4582,6 +4466,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 142.24) (xy 100.33 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e772616a-740d-4ebd-b0c4-d3838d71bd07")
+	)
+	(wire
+		(pts
 			(xy 44.45 153.67) (xy 44.45 154.94)
 		)
 		(stroke
@@ -4632,6 +4526,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 170.18) (xy 41.91 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef244246-d5c8-43d8-8a65-a6b470e8405e")
+	)
+	(wire
+		(pts
 			(xy 38.1 77.47) (xy 40.64 77.47)
 		)
 		(stroke
@@ -4642,6 +4546,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 144.78) (xy 41.91 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f59f26d5-5a7e-41ce-b974-a0476dcfbaab")
+	)
+	(wire
+		(pts
 			(xy 113.03 161.29) (xy 111.76 161.29)
 		)
 		(stroke
@@ -4649,6 +4563,16 @@
 			(type default)
 		)
 		(uuid "f86320eb-10d3-442b-9954-a9d6ffc21dba")
+	)
+	(wire
+		(pts
+			(xy 41.91 142.24) (xy 41.91 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f92633c4-d919-46b5-8495-99d200178f77")
 	)
 	(wire
 		(pts
@@ -6410,6 +6334,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 95.25 170.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14961fb3-c36b-4ba3-8e2f-1e2c56d6ab81")
+		(property "Reference" "J11"
+			(at 95.885 165.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 95.885 167.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+			(at 95.25 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 95.25 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "27fc7b79-88e9-4ec0-a823-c5aed6c56454")
+		)
+		(pin "1"
+			(uuid "687c41f9-656a-4b6e-b8ff-fc0b82788be6")
+		)
+		(instances
+			(project "PVDX_BatteryBoard"
+				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde/b34fb11c-4e7e-4d41-87e4-3948049b024c"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 207.01 119.38 0)
 		(unit 1)
@@ -6818,6 +6822,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 36.83 170.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "271cca02-caf1-4e61-9153-b8b732a27caf")
+		(property "Reference" "J9"
+			(at 37.465 165.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 37.465 167.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+			(at 36.83 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 36.83 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a0a68dad-15ec-4d7c-94ae-1b46dc45645f")
+		)
+		(pin "1"
+			(uuid "05f58876-aadd-4ac3-bed0-c0b805586acd")
+		)
+		(instances
+			(project "PVDX_BatteryBoard"
+				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde/b34fb11c-4e7e-4d41-87e4-3948049b024c"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 198.12 68.58 0)
 		(unit 1)
@@ -7003,82 +7087,6 @@
 			(project "PVDX_BatteryBoard"
 				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde/b34fb11c-4e7e-4d41-87e4-3948049b024c"
 					(reference "BT4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 95.25 170.18 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2df5efc4-30b7-4e66-bf54-507f3995e278")
-		(property "Reference" "J11"
-			(at 95.885 162.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Pin"
-			(at 95.885 165.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical"
-			(at 95.25 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 95.25 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 95.25 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1dcb34f6-cbb4-451f-aebc-88356d3d80b0")
-		)
-		(instances
-			(project "PVDX_BatteryBoard"
-				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde/b34fb11c-4e7e-4d41-87e4-3948049b024c"
-					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -7397,82 +7405,6 @@
 			(project "PVDX_BatteryBoard"
 				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde/b34fb11c-4e7e-4d41-87e4-3948049b024c"
 					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 36.83 170.18 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3c029f23-2837-4084-91e9-7211ffc8a88a")
-		(property "Reference" "J9"
-			(at 37.465 162.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Pin"
-			(at 37.465 165.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical"
-			(at 36.83 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 36.83 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 36.83 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "852fc0cd-1fe3-46f0-9893-3bd1386fa54e")
-		)
-		(instances
-			(project "PVDX_BatteryBoard"
-				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde/b34fb11c-4e7e-4d41-87e4-3948049b024c"
-					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -8243,83 +8175,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 36.83 142.24 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5803f5cb-18d7-4e7b-8318-76c096a1d49a")
-		(property "Reference" "J5"
-			(at 37.465 137.16 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Pin"
-			(at 37.465 139.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical"
-			(at 36.83 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 36.83 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 36.83 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8bb75a37-5736-4c62-b541-b008c2ccee7c")
-		)
-		(instances
-			(project "PVDX_BatteryBoard"
-				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde/b34fb11c-4e7e-4d41-87e4-3948049b024c"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 251.46 130.81 0)
 		(unit 1)
@@ -8778,83 +8633,6 @@
 			(project "PVDX_BatteryBoard"
 				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde/b34fb11c-4e7e-4d41-87e4-3948049b024c"
 					(reference "TH3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 95.25 142.24 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "745b9c7e-61e1-42c5-a890-d3fe6191ced2")
-		(property "Reference" "J7"
-			(at 95.885 137.16 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Pin"
-			(at 95.885 139.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical"
-			(at 95.25 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 95.25 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 95.25 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0e5590d4-d373-4078-8f18-73906b745813")
-		)
-		(instances
-			(project "PVDX_BatteryBoard"
-				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde/b34fb11c-4e7e-4d41-87e4-3948049b024c"
-					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -9888,6 +9666,86 @@
 			(project "PVDX_BatteryBoard"
 				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde/b34fb11c-4e7e-4d41-87e4-3948049b024c"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 36.83 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1fda606-a9b8-40ef-a638-b47fb9467fc3")
+		(property "Reference" "J5"
+			(at 37.465 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 37.465 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+			(at 36.83 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 36.83 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "83430bf3-0cbb-414b-ac55-38db3ab26f66")
+		)
+		(pin "1"
+			(uuid "bc001aa7-2766-4d20-9afa-15e3e3fab08c")
+		)
+		(instances
+			(project "PVDX_BatteryBoard"
+				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde/b34fb11c-4e7e-4d41-87e4-3948049b024c"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -11013,9 +10871,90 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 95.25 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f86a6a22-3e31-42a4-908e-da596ed9f080")
+		(property "Reference" "J7"
+			(at 95.885 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 95.885 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+			(at 95.25 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 95.25 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c131a59b-c263-4698-a374-adb013908fe0")
+		)
+		(pin "1"
+			(uuid "fd876176-70eb-49b3-b19b-0bab77f60b8e")
+		)
+		(instances
+			(project "PVDX_BatteryBoard"
+				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde/b34fb11c-4e7e-4d41-87e4-3948049b024c"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
