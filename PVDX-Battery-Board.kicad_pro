@@ -544,7 +544,7 @@
       "plot": "manufacturing/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "PVDX-Battery-Board.step",
       "svg": "",
       "vrml": ""
     },
