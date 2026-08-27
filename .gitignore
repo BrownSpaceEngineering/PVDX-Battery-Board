@@ -1,2 +1,15 @@
 *-backups/
 .history/
+*.kicad_prl
+
+_autosave-*
+
+*.lck
+
+*.bak
+
+fp-info-cache
+
+.DS_Store
+
+Thumbs.db
