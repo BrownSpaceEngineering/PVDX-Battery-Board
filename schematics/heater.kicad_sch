@@ -1767,7 +1767,7 @@
 			(uuid "8b14b64f-f88b-4156-bd5f-81cadad89e29")
 		)
 		(instances
-			(project "PVDX_BatteryBoard"
+			(project "PVDX-Battery-Board"
 				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde/6615dc5a-7f0b-406b-9d77-243d4272a96d"
 					(reference "Q2")
 					(unit 1)
@@ -1845,7 +1845,7 @@
 			(uuid "de526b0c-7d11-46bb-8ca9-68b9190e11e2")
 		)
 		(instances
-			(project "PVDX_BatteryBoard"
+			(project "PVDX-Battery-Board"
 				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde/6615dc5a-7f0b-406b-9d77-243d4272a96d"
 					(reference "#PWR08")
 					(unit 1)
@@ -1927,7 +1927,7 @@
 			(uuid "cb062f5e-4faf-43a2-b46b-c40c1c91d7fb")
 		)
 		(instances
-			(project "PVDX_BatteryBoard"
+			(project "PVDX-Battery-Board"
 				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde/6615dc5a-7f0b-406b-9d77-243d4272a96d"
 					(reference "R2")
 					(unit 1)
@@ -2022,7 +2022,7 @@
 			(uuid "b89c8341-7fc5-47d7-9edd-4681848de8cd")
 		)
 		(instances
-			(project "PVDX_BatteryBoard"
+			(project "PVDX-Battery-Board"
 				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde/6615dc5a-7f0b-406b-9d77-243d4272a96d"
 					(reference "Q2")
 					(unit 2)
@@ -2100,7 +2100,7 @@
 			(uuid "cf66cc33-3c64-4141-ad5d-ce9fe327633c")
 		)
 		(instances
-			(project "PVDX_BatteryBoard"
+			(project "PVDX-Battery-Board"
 				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde/6615dc5a-7f0b-406b-9d77-243d4272a96d"
 					(reference "#PWR07")
 					(unit 1)
@@ -2182,7 +2182,7 @@
 			(uuid "ad2a1531-718b-4c06-a01b-ccd9b5a44c73")
 		)
 		(instances
-			(project "PVDX_BatteryBoard"
+			(project "PVDX-Battery-Board"
 				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde/6615dc5a-7f0b-406b-9d77-243d4272a96d"
 					(reference "R6")
 					(unit 1)
@@ -2264,7 +2264,7 @@
 			(uuid "51236623-3895-42b9-a649-3109015fef27")
 		)
 		(instances
-			(project "PVDX_BatteryBoard"
+			(project "PVDX-Battery-Board"
 				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde/6615dc5a-7f0b-406b-9d77-243d4272a96d"
 					(reference "R4")
 					(unit 1)
@@ -2346,7 +2346,7 @@
 			(uuid "f81785f4-d9d9-42ec-be43-90231acf742e")
 		)
 		(instances
-			(project "PVDX_BatteryBoard"
+			(project "PVDX-Battery-Board"
 				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde/6615dc5a-7f0b-406b-9d77-243d4272a96d"
 					(reference "R8")
 					(unit 1)
@@ -2428,7 +2428,7 @@
 			(uuid "8af324ac-3a7d-483d-b2c5-2b44793792de")
 		)
 		(instances
-			(project "PVDX_BatteryBoard"
+			(project "PVDX-Battery-Board"
 				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde/6615dc5a-7f0b-406b-9d77-243d4272a96d"
 					(reference "R1")
 					(unit 1)
@@ -2510,7 +2510,7 @@
 			(uuid "b6ccdaa0-f361-4620-9e6c-0ae2a63a9041")
 		)
 		(instances
-			(project "PVDX_BatteryBoard"
+			(project "PVDX-Battery-Board"
 				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde/6615dc5a-7f0b-406b-9d77-243d4272a96d"
 					(reference "R7")
 					(unit 1)
@@ -2588,7 +2588,7 @@
 			(uuid "55d7796a-d302-4d61-a8f0-4568fb438828")
 		)
 		(instances
-			(project "PVDX_BatteryBoard"
+			(project "PVDX-Battery-Board"
 				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde/6615dc5a-7f0b-406b-9d77-243d4272a96d"
 					(reference "#PWR03")
 					(unit 1)
@@ -2670,7 +2670,7 @@
 			(uuid "c928b800-8fec-41b5-9d0f-a12983c30774")
 		)
 		(instances
-			(project "PVDX_BatteryBoard"
+			(project "PVDX-Battery-Board"
 				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde/6615dc5a-7f0b-406b-9d77-243d4272a96d"
 					(reference "R3")
 					(unit 1)
@@ -2765,7 +2765,7 @@
 			(uuid "b89c8341-7fc5-47d7-9edd-4681848de8ce")
 		)
 		(instances
-			(project "PVDX_BatteryBoard"
+			(project "PVDX-Battery-Board"
 				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde/6615dc5a-7f0b-406b-9d77-243d4272a96d"
 					(reference "Q1")
 					(unit 2)
@@ -2843,7 +2843,7 @@
 			(uuid "54cc2dbc-fcba-4c07-9ae8-0404ecdc8490")
 		)
 		(instances
-			(project "PVDX_BatteryBoard"
+			(project "PVDX-Battery-Board"
 				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde/6615dc5a-7f0b-406b-9d77-243d4272a96d"
 					(reference "#PWR01")
 					(unit 1)
@@ -2925,7 +2925,7 @@
 			(uuid "b54fa0b6-dc0a-4136-92d2-90e14e5dd142")
 		)
 		(instances
-			(project "PVDX_BatteryBoard"
+			(project "PVDX-Battery-Board"
 				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde/6615dc5a-7f0b-406b-9d77-243d4272a96d"
 					(reference "R5")
 					(unit 1)
@@ -3020,7 +3020,7 @@
 			(uuid "b89c8341-7fc5-47d7-9edd-4681848de8cf")
 		)
 		(instances
-			(project "PVDX_BatteryBoard"
+			(project "PVDX-Battery-Board"
 				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde/6615dc5a-7f0b-406b-9d77-243d4272a96d"
 					(reference "Q1")
 					(unit 1)
@@ -3102,7 +3102,7 @@
 			(uuid "4426a48e-244f-4cbd-8e65-b420ef814309")
 		)
 		(instances
-			(project "PVDX_BatteryBoard"
+			(project "PVDX-Battery-Board"
 				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde/6615dc5a-7f0b-406b-9d77-243d4272a96d"
 					(reference "R9")
 					(unit 1)
@@ -3184,7 +3184,7 @@
 			(uuid "89a46323-f8ea-404c-aa38-2e358df3874b")
 		)
 		(instances
-			(project "PVDX_BatteryBoard"
+			(project "PVDX-Battery-Board"
 				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde/6615dc5a-7f0b-406b-9d77-243d4272a96d"
 					(reference "R10")
 					(unit 1)

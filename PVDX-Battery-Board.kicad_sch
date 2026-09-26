@@ -619,7 +619,7 @@
 			)
 		)
 		(instances
-			(project "PVDX_BatteryBoard"
+			(project "PVDX-Battery-Board"
 				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde"
 					(page "3")
 				)
@@ -665,7 +665,7 @@
 			)
 		)
 		(instances
-			(project "PVDX_BatteryBoard"
+			(project "PVDX-Battery-Board"
 				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde"
 					(page "2")
 				)
