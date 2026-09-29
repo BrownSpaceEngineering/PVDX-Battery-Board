@@ -1,15 +1,30 @@
+﻿# KiCad backups & autosave
 *-backups/
-.history/
-*.kicad_prl
-
 _autosave-*
-
-*.lck
-
 *.bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
 
+# KiCad auto-generated caches (regenerated on open, don't track)
 fp-info-cache
+*.lck
+*-lock
 
+# Project-local settings — per-user, not design data
+*.kicad_prl
+*freerouting.dsn
+
+# SPICE regeneratable run output (keep .asc and models/, drop the rest)
+*.raw
+*.op.raw
+*.log
+
+# OS junk
 .DS_Store
-
 Thumbs.db
+
+# Editor junk
+*.swp
+.vscode/
+.history/
+.history_trim/
