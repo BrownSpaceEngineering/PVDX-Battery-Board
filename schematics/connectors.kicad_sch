@@ -2310,7 +2310,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+5V"
+		(symbol "power:+3V3"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -2335,7 +2335,7 @@
 					)
 				)
 			)
-			(property "Value" "+5V"
+			(property "Value" "+3V3"
 				(at 0 3.556 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2367,7 +2367,7 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2389,7 +2389,7 @@
 					)
 				)
 			)
-			(symbol "+5V_0_1"
+			(symbol "+3V3_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -2427,7 +2427,7 @@
 					)
 				)
 			)
-			(symbol "+5V_1_1"
+			(symbol "+3V3_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -2636,16 +2636,22 @@
 		(uuid "dc22addb-04fa-4d6b-a8c6-d1c46ef70bc8")
 	)
 	(junction
+		(at 198.12 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "08c502e1-c802-47f7-a43e-79afaacd8338")
+	)
+	(junction
 		(at 114.3 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0a0eae6a-5ed8-43a4-8e7f-72581c01504a")
 	)
 	(junction
-		(at 242.57 59.69)
+		(at 242.57 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2977e9e1-5e78-4c05-8b96-5c3c994e53ba")
+		(uuid "13369d09-7fb5-43b6-ba34-0e16b9cfe05b")
 	)
 	(junction
 		(at 114.3 120.65)
@@ -2660,6 +2666,12 @@
 		(uuid "3d74cfdf-cd23-4f37-9e47-fdaa88fff586")
 	)
 	(junction
+		(at 198.12 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e30da01-772d-4a01-9300-9ee7924bdde2")
+	)
+	(junction
 		(at 251.46 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2672,16 +2684,16 @@
 		(uuid "498f1f60-93b1-48de-8a60-0b16fc193c55")
 	)
 	(junction
+		(at 242.57 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52d06bbb-7acd-4f69-8896-0de8f4ce04a5")
+	)
+	(junction
 		(at 207.01 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5ae2e379-1bbf-458d-8152-cb741edd9789")
-	)
-	(junction
-		(at 242.57 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5c0ab88c-f6fc-4882-afc8-351d13552d62")
 	)
 	(junction
 		(at 114.3 123.19)
@@ -2694,18 +2706,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "837d6197-b586-4b16-8667-40c10ecde6eb")
-	)
-	(junction
-		(at 198.12 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a9e37870-18b1-40ff-b69f-0fe535245fc5")
-	)
-	(junction
-		(at 198.12 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b86f8e2e-e7a6-44a7-817a-9d1ba843d776")
 	)
 	(junction
 		(at 162.56 120.65)
@@ -4893,7 +4893,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12k"
+		(property "Value" "3.9k"
 			(at 209.55 120.6499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4953,6 +4953,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 198.12 59.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "173b1a2f-5a78-4e92-becb-9527bf3e7810")
+		(property "Reference" "#PWR019"
+			(at 198.12 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 198.12 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 198.12 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4c0def86-afbd-495d-95ed-9a0c05d6a77f")
+		)
+		(instances
+			(project "PVDX-Battery-Board"
+				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde/b34fb11c-4e7e-4d41-87e4-3948049b024c"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 207.01 105.41 0)
 		(unit 1)
@@ -4975,7 +5053,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "42k"
+		(property "Value" "11k"
 			(at 209.55 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5266,7 +5344,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12k"
+		(property "Value" "3.9k"
 			(at 254 120.6499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5326,8 +5404,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 198.12 59.69 0)
+		(lib_id "power:+3V3")
+		(at 242.57 59.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5336,9 +5414,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "34a7ff81-6c11-49b9-ae74-10f010d5d946")
-		(property "Reference" "#PWR04"
-			(at 198.12 63.5 0)
+		(uuid "35a5d4c6-4644-4210-9da7-26b0af7979f4")
+		(property "Reference" "#PWR010"
+			(at 242.57 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5348,8 +5426,8 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
-			(at 198.12 54.61 0)
+		(property "Value" "+3V3"
+			(at 242.57 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5359,7 +5437,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 198.12 59.69 0)
+			(at 242.57 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5370,7 +5448,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 59.69 0)
+			(at 242.57 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5380,8 +5458,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 198.12 59.69 0)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 242.57 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5392,12 +5470,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "f24f7aa6-c631-45ee-9bc8-3f9bb54bead9")
+			(uuid "b001d24d-0cc2-4440-841c-93558117c2a1")
 		)
 		(instances
 			(project "PVDX-Battery-Board"
 				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde/b34fb11c-4e7e-4d41-87e4-3948049b024c"
-					(reference "#PWR04")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -5564,84 +5642,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 242.57 100.33 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3e2fd183-18e0-425c-87f5-dbd7a4d97a24")
-		(property "Reference" "#PWR016"
-			(at 242.57 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 242.57 95.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 242.57 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 242.57 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 242.57 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "08984e2b-15e4-435d-9e26-a5fbc1bd9cab")
-		)
-		(instances
-			(project "PVDX-Battery-Board"
-				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde/b34fb11c-4e7e-4d41-87e4-3948049b024c"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 251.46 78.74 0)
 		(unit 1)
@@ -5664,7 +5664,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12k"
+		(property "Value" "3.9k"
 			(at 254 80.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6131,6 +6131,162 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 198.12 100.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c6fa2e0-cefa-4f4b-8b22-26a78ac09e30")
+		(property "Reference" "#PWR013"
+			(at 198.12 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 198.12 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 198.12 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ec9a376a-02fa-4035-8baa-0774733811ad")
+		)
+		(instances
+			(project "PVDX-Battery-Board"
+				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde/b34fb11c-4e7e-4d41-87e4-3948049b024c"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 120.65 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5eab11d1-ff66-40ce-8e34-0b2f30b7e91a")
+		(property "Reference" "#PWR09"
+			(at 120.65 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 120.65 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 120.65 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fee81650-4325-4052-ad0b-770c18438634")
+		)
+		(instances
+			(project "PVDX-Battery-Board"
+				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde/b34fb11c-4e7e-4d41-87e4-3948049b024c"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 251.46 90.17 0)
 		(unit 1)
@@ -6455,84 +6611,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 198.12 100.33 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7e3ee9b4-e35f-4239-ae9d-47d2968f8640")
-		(property "Reference" "#PWR013"
-			(at 198.12 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 198.12 95.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 198.12 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 198.12 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 198.12 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "51c80381-6bba-45fc-a632-cc68fe7d8de0")
-		)
-		(instances
-			(project "PVDX-Battery-Board"
-				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde/b34fb11c-4e7e-4d41-87e4-3948049b024c"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 242.57 109.22 0)
 		(unit 1)
@@ -6763,84 +6841,6 @@
 			(project "PVDX-Battery-Board"
 				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde/b34fb11c-4e7e-4d41-87e4-3948049b024c"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 120.65 74.93 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "91be0b27-e1b5-46a8-a94c-2bfb65b6fee1")
-		(property "Reference" "#PWR09"
-			(at 120.65 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 120.65 69.85 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 120.65 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 120.65 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "45f3c3a1-c6c6-450f-90d7-25deac9041d6")
-		)
-		(instances
-			(project "PVDX-Battery-Board"
-				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde/b34fb11c-4e7e-4d41-87e4-3948049b024c"
-					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -7275,7 +7275,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "42k"
+		(property "Value" "11k"
 			(at 254 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7357,7 +7357,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "42k"
+		(property "Value" "11k"
 			(at 254 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7543,7 +7543,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "42k"
+		(property "Value" "11k"
 			(at 209.55 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7694,84 +7694,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 242.57 59.69 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d99a2b0c-0725-454a-8663-32b54d746bdc")
-		(property "Reference" "#PWR010"
-			(at 242.57 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 242.57 54.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 242.57 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 242.57 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 242.57 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1e17234d-0663-43af-89e4-aebcf14a4b86")
-		)
-		(instances
-			(project "PVDX-Battery-Board"
-				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde/b34fb11c-4e7e-4d41-87e4-3948049b024c"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 207.01 78.74 0)
 		(unit 1)
@@ -7794,7 +7716,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12k"
+		(property "Value" "3.9k"
 			(at 209.55 80.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7848,6 +7770,84 @@
 			(project "PVDX-Battery-Board"
 				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde/b34fb11c-4e7e-4d41-87e4-3948049b024c"
 					(reference "Rt2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 242.57 100.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed0a51b9-f999-4446-8138-22145babdecb")
+		(property "Reference" "#PWR016"
+			(at 242.57 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 242.57 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 242.57 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cf1173ed-96aa-47a6-9276-f1cc50ff7ca8")
+		)
+		(instances
+			(project "PVDX-Battery-Board"
+				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde/b34fb11c-4e7e-4d41-87e4-3948049b024c"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
