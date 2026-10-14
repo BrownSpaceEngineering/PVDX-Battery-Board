@@ -1682,6 +1682,102 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:DMC2053UVT")
+		(at 127 76.2 0)
+		(mirror x)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "03c07c23-2f0f-4bd3-b82b-157b8428d9ac")
+		(property "Reference" "Q1"
+			(at 132.08 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DMC2053UVT"
+			(at 132.08 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
+			(at 129.54 74.295 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMC2053UVT.pdf"
+			(at 129.54 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "4.6A/-3.2A Id, 20V Vds, Complementary pair enhancement mode P-Channel and N-Channel MOSFET, TSOT-23-6"
+			(at 127 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "8808b51c-c0cb-4e4d-b76e-8b01a4d2cdd8")
+		)
+		(pin "2"
+			(uuid "2639fc17-5675-4a2d-9fad-09b6feb0c9a2")
+		)
+		(pin "6"
+			(uuid "9c473a3e-a674-4395-9924-c1b0dae5572e")
+		)
+		(pin "1"
+			(uuid "36222e74-fcfe-4d77-9f53-ed09224a8ab2")
+		)
+		(pin "4"
+			(uuid "99d7f8cc-2001-42cf-98de-c2e2d41cf08d")
+		)
+		(pin "5"
+			(uuid "b89c8341-7fc5-47d7-9edd-4681848de8ce")
+		)
+		(instances
+			(project "PVDX-Battery-Board"
+				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde/6615dc5a-7f0b-406b-9d77-243d4272a96d"
+					(reference "Q1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:DMC2053UVT")
 		(at 99.06 139.7 0)
 		(unit 1)
 		(body_style 1)
@@ -1931,101 +2027,6 @@
 				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde/6615dc5a-7f0b-406b-9d77-243d4272a96d"
 					(reference "R2")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:DMC2053UVT")
-		(at 127 132.08 0)
-		(unit 2)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4cbe3b1f-ab20-445e-86c2-2a5b764379cf")
-		(property "Reference" "Q2"
-			(at 132.08 130.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DMC2053UVT"
-			(at 132.08 133.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
-			(at 129.54 133.985 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMC2053UVT.pdf"
-			(at 129.54 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "4.6A/-3.2A Id, 20V Vds, Complementary pair enhancement mode P-Channel and N-Channel MOSFET, TSOT-23-6"
-			(at 127 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "5b281193-4fd5-44ab-a00f-789c5836ee35")
-		)
-		(pin "2"
-			(uuid "1134bfb6-c8d0-4671-96fc-a4c61ed9779a")
-		)
-		(pin "6"
-			(uuid "9c473a3e-a674-4395-9924-c1b0dae5572d")
-		)
-		(pin "1"
-			(uuid "36222e74-fcfe-4d77-9f53-ed09224a8ab1")
-		)
-		(pin "4"
-			(uuid "a99f88f2-0e22-4145-bab3-7bc7df98b6af")
-		)
-		(pin "5"
-			(uuid "b89c8341-7fc5-47d7-9edd-4681848de8cd")
-		)
-		(instances
-			(project "PVDX-Battery-Board"
-				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde/6615dc5a-7f0b-406b-9d77-243d4272a96d"
-					(reference "Q2")
-					(unit 2)
 				)
 			)
 		)
@@ -2679,101 +2680,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:DMC2053UVT")
-		(at 127 76.2 0)
-		(unit 2)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "cd342ac4-beaa-4012-86f6-44ad50218679")
-		(property "Reference" "Q1"
-			(at 132.08 74.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DMC2053UVT"
-			(at 132.08 77.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
-			(at 129.54 78.105 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMC2053UVT.pdf"
-			(at 129.54 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "4.6A/-3.2A Id, 20V Vds, Complementary pair enhancement mode P-Channel and N-Channel MOSFET, TSOT-23-6"
-			(at 127 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "4eef2f4d-d550-479b-88a6-98855dfc80da")
-		)
-		(pin "2"
-			(uuid "5cc67425-3f60-4daf-92b1-7e9395721f9f")
-		)
-		(pin "6"
-			(uuid "9c473a3e-a674-4395-9924-c1b0dae5572e")
-		)
-		(pin "1"
-			(uuid "36222e74-fcfe-4d77-9f53-ed09224a8ab2")
-		)
-		(pin "4"
-			(uuid "e3243c2d-8dc0-4c34-b129-200ac172f666")
-		)
-		(pin "5"
-			(uuid "b89c8341-7fc5-47d7-9edd-4681848de8ce")
-		)
-		(instances
-			(project "PVDX-Battery-Board"
-				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde/6615dc5a-7f0b-406b-9d77-243d4272a96d"
-					(reference "Q1")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 90.17 96.52 0)
 		(unit 1)
@@ -3106,6 +3012,102 @@
 				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde/6615dc5a-7f0b-406b-9d77-243d4272a96d"
 					(reference "R9")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:DMC2053UVT")
+		(at 127 132.08 0)
+		(mirror x)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f874f2ab-406e-4325-8738-8178db1c39ce")
+		(property "Reference" "Q2"
+			(at 132.08 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DMC2053UVT"
+			(at 132.08 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
+			(at 129.54 130.175 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMC2053UVT.pdf"
+			(at 129.54 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "4.6A/-3.2A Id, 20V Vds, Complementary pair enhancement mode P-Channel and N-Channel MOSFET, TSOT-23-6"
+			(at 127 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "932bc939-207a-4c9c-812b-4d587832a2ec")
+		)
+		(pin "2"
+			(uuid "4f359971-c47d-410d-a450-2306a418f7e3")
+		)
+		(pin "6"
+			(uuid "9c473a3e-a674-4395-9924-c1b0dae5572d")
+		)
+		(pin "1"
+			(uuid "36222e74-fcfe-4d77-9f53-ed09224a8ab1")
+		)
+		(pin "4"
+			(uuid "10148d4d-6adb-45a5-b7c4-16255a5e8b2d")
+		)
+		(pin "5"
+			(uuid "b89c8341-7fc5-47d7-9edd-4681848de8cd")
+		)
+		(instances
+			(project "PVDX-Battery-Board"
+				(path "/c318761a-e6d3-4e59-aaa2-0d170bce7cde/6615dc5a-7f0b-406b-9d77-243d4272a96d"
+					(reference "Q2")
+					(unit 2)
 				)
 			)
 		)

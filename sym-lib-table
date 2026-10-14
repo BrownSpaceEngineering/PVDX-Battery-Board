@@ -1,0 +1,5 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "S-8252ABY-M6T1U") (type "KiCad") (uri "${KIPRJMOD}/libs/symbols/S-8252ABY-M6T1U.kicad_sym") (options "") (descr ""))
+	(lib (name "SI4136DY-T1-GE3") (type "KiCad") (uri "${KIPRJMOD}/libs/symbols/SI4136DY-T1-GE3.kicad_sym") (options "") (descr ""))
+)
